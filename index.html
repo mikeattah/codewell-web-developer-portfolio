@@ -17,21 +17,8 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./codewell-favicon-32x32.ico"
     />
-
-    <!-- My personal font awesome 5 kit -->
-    <script
-      src="https://kit.fontawesome.com/ddc4c3e78e.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Ion Icons -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
 
     <title>Codewell Projects | Web Developer Portfolio</title>
 
@@ -39,7 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto:wght@400&family=Montserrat:wght@400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Roboto:wght@400&family=Montserrat:wght@400&family=Prata:wght@400&family=Inter:wght@300&display=swap"
       rel="stylesheet"
     />
 
@@ -48,11 +35,11 @@
   </head>
   <body>
     <div class="container">
-      <div class="header-container">
-        <header class="header-title">
+      <header class="header-container">
+        <div class="header-title">
           <h1 class="title">Johnathan Specter</h1>
-        </header>
-        <nav class="header-navigation">
+        </div>
+        <nav class="header-nav">
           <ul class="nav-list">
             <li class="nav-item">
               <a href="#Articles" class="nav-link">Articles</a>
@@ -68,137 +55,199 @@
             </li>
           </ul>
         </nav>
-        <div class="header-button">
-          <a href="#" class="get-in-touch">Get in touch</a>
+        <div class="header-btn">
+          <a href="#" class="btn">Get in touch</a>
         </div>
-      </div>
+      </header>
       <main class="main-container">
-        <section id="Articles" class="artciles">
-          <h2 class="section-title">
-            Helping companies build better, scalable software.
+        <!-- S1 -->
+        <section id="Articles" class="articles">
+          <h2 class="articles-section-title">
+            Helping companies build <br />
+            better, scalable software.
           </h2>
-          <p class="section-text">
+          <p class="articles-section-text">
             Award-winning web developer and author, with over 15+ years of
-            working experience with Fortune 500 companies like Apple, Google,
-            Facebook, and more.
+            working <br />
+            experience with Fortune 500 companies like Apple, Google, Facebook,
+            and <br />
+            more.
           </p>
-          <div class="corp-logos">
-            <img src="./assets/logos/walmart.svg" alt="Walmart Logo" />
-            <img src="./assets/logos/jpmorgan.svg" alt="JP Morgan Logo" />
-            <img src="./assets/logos/visa.svg" alt="Visa Logo" />
-            <img src="./assets/logos/tinder.svg" alt="Tinder Logo" />
-            <img src="./assets/logos/samsung.svg" alt="Samsung Logo" />
-            <img src="./assets/logos/verizon.svg" alt="Verizon Logo" />
+          <div class="logos-container">
+            <img
+              src="./assets/logos/walmart.svg"
+              alt="Walmart Logo"
+              class="logo"
+            />
+            <img
+              src="./assets/logos/jpmorgan.svg"
+              alt="JP Morgan Logo"
+              class="logo"
+            />
+            <img src="./assets/logos/visa.svg" alt="Visa Logo" class="logo" />
+            <img
+              src="./assets/logos/tinder.svg"
+              alt="Tinder Logo"
+              class="logo"
+            />
+            <img
+              src="./assets/logos/samsung.svg"
+              alt="Samsung Logo"
+              class="logo"
+            />
+            <img
+              src="./assets/logos/verizon.svg"
+              alt="Verizon Logo"
+              class="logo"
+            />
           </div>
         </section>
+        <!-- S2 -->
         <section id="Chats" class="chats">
           <div class="spense-subsection">
-            <img src="./assets/spense.png" alt="Spense Chats" />
-            <h2 class="section-title">Spense.com</h2>
-            <p class="section-text">
-              Rethinking the way writers get paid, an open-source platform
-              designed to help writers focus more on writing, and less on when
-              and how they'll get paid. Project in collaboration with
-              Codewell.cc
-            </p>
+            <div class="spense-image-container">
+              <img
+                src="./assets/spense.png"
+                alt="Spense Chats"
+                class="spense-image"
+              />
+            </div>
+            <div class="spense-text-container">
+              <h2 class="spense-subsection-title">Spense.com</h2>
+              <p class="spense-subsection-text">
+                Rethinking the way writers get paid, an open-source platform
+                <br />
+                designed to help writers focus more on writing, and less on
+                <br />
+                when and how they&apos;ll get paid. Project in collaboration
+                with
+                <br />
+                Codewell.cc
+              </p>
+            </div>
           </div>
           <div class="yelpcamp-subsection">
-            <img src="./assets/yelpcamp.png" alt="YelpCamp Chats" />
-            <h2 class="section-title">YelpCamp.com</h2>
-            <p class="section-text">
-              Allowing backpack travelers to perfectly plan their trip through
-              an open-source platform similar to TripAdvisor. With over 1m MAU,
-              YelpCamp has been the crowd's favorite in 2021.
-            </p>
+            <div class="yelpcamp-image-container">
+              <img
+                src="./assets/yelpcamp.png"
+                alt="YelpCamp Chats"
+                class="yelpcamp-image"
+              />
+            </div>
+            <div class="yelpcamp-text-container">
+              <h2 class="yelpcamp-subsection-title">YelpCamp.com</h2>
+              <p class="yelpcamp-subsection-text">
+                Allowing backpack travelers to perfectly plan their trip <br />
+                through an open-source platform similar to TripAdvisor. With
+                <br />
+                over 1m MAU, YelpCamp has been the crowd&apos;s favorite in
+                <br />
+                2021.
+              </p>
+            </div>
           </div>
         </section>
+        <!-- S3 -->
         <section id="Awards" class="awards">
-          <div class="sub-section">
-            <h2 class="section-title">
-              A co-founder at one of the world's largest communities.
+          <div class="awards-subsection">
+            <h2 class="awards-section-title">
+              A co-founder at one of the <br />
+              world&apos;s largest communities.
             </h2>
-            <p>
-              The combined experience I have working at the top Fortune 500
-              companies has allowed me to develop a skillset that helps me in
-              not just developement, but in every aspect of any business.
+            <p class="awards-section-text">
+              The combined experience I have working at the top Fortune <br />
+              500 companies has allowed me to develop a skillset that <br />
+              helps me in not just developement, but in every aspect of any
+              <br />
+              business.
             </p>
-            <p>
-              I am proud to announce that I am now working at one of the world's
-              largest communities teaching young minds about how to
-              <span class="italic-text">sell yourself</span> as a developer and
-              open them to a whole new world of opportunities.
+            <p class="awards-section-text">
+              I am proud to announce that I am now working at one of the <br />
+              world&apos;s largest communities teaching young minds about how
+              <br />
+              to <span class="italic-text">sell yourself</span> as a developer
+              and open them to a whole new <br />
+              world of opportunities.
             </p>
           </div>
-          <div class="sub-section">
-            <p>
+          <div class="awards-subsection">
+            <p class="awards-section-text">
               As a developer, you have everything available to you and all
-              that's holding you back is yourself.
+              <br />
+              that&apos;s holding you back is yourself.
             </p>
-            <p>A quote I live by perfectly illustrates what I mean.</p>
-            <q
+            <p class="awards-section-text">
+              A quote I live by perfectly illustrates what I mean.
+            </p>
+            <q class="awards-section-text"
               >How big would you dream, if you
               <span class="bold-text">knew</span> you wouldn&apos;t fail?</q
             >
-            <p>
+            <p class="awards-section-text">
               You&apos;ve already gone through the hardest parts of being a
+              <br />
               developer, it&apos;s time to elevate your skills and become a
-              leader in something you&apos;re
+              leader <br />
+              in something you&apos;re
               <span class="italic-text">passionate</span> about.
             </p>
-            <p>
+            <p class="awards-section-text">
               I&apos;m happy to chat over coffee some time about how I can help
+              <br />
               your company.
             </p>
           </div>
         </section>
-        <section id="About">
-          <h2 class="section-title">Interested in working with me?</h2>
-          <p class="section-text">
+        <!-- S4 -->
+        <section id="About" class="about">
+          <h2 class="about-section-title">Interested in working with me?</h2>
+          <p class="about-section-text">
             I&apos;m active on all social media platforms listed below, but you
+            <br />
             can also send me an email and I will get back to you within 24-48
+            <br />
             hours.
           </p>
-          <div class="section-button">
-            <a href="#" class="get-in-touch">Get in touch</a>
+          <div class="about-section-button">
+            <a href="#" class="btn">Get in touch</a>
           </div>
         </section>
       </main>
       <footer class="footer-container">
-        <div class="copyright-container">
-          <p>Johnathan Specter</p>
-          <div class="social-media">
-            <a href="#"
-              ><img src="./assets/social-icons/twitter.svg" alt="Twitter Logo"
-            /></a>
-            <a href="#"
-              ><img
-                src="./assets/social-icons/linkedin.svg"
-                alt="LinkedIn Logo"
-            /></a>
-            <a href="#"
-              ><img src="./assets/social-icons/github.svg" alt="Github Logo"
-            /></a>
-          </div>
+        <div class="base-title-container">
+          <p class="base-title">Johnathan Specter</p>
         </div>
-        <div class="attribution-container">
-          <p class="attribution">
-            Challenge by
-            <a
-              href="https://www.frontendmentor.io?ref=challenge"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Frontend Mentor</a
-            >. Coded by
-            <a
-              href="https://twitter.com/miikeattah"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Mike Attah</a
-            >.
-          </p>
+        <div class="social-media-container">
+          <a href="#" class="social-media-link"
+            ><img src="./assets/social-icons/twitter.svg" alt="Twitter Logo"
+          /></a>
+          <a href="#" class="social-media-link"
+            ><img src="./assets/social-icons/linkedin.svg" alt="LinkedIn Logo"
+          /></a>
+          <a href="#" class="social-media-link"
+            ><img src="./assets/social-icons/github.svg" alt="GitHub Logo"
+          /></a>
         </div>
       </footer>
+      <div class="attribution-container">
+        <p class="attribution">
+          Challenge by
+          <a
+            href="https://www.codewell.cc/challenges"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="attribution-link"
+            >Codewell</a
+          >. Coded by
+          <a
+            href="https://twitter.com/miikeattah"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="attribution-link"
+            >Mike Attah</a
+          >.
+        </p>
+      </div>
     </div>
-    <script src="index.js"></script>
   </body>
 </html>
