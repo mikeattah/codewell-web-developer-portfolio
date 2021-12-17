@@ -1,12 +1,33 @@
-# Welcome to Codewell! 👋
+# Codewell Project - Web Developer Portfolio
+
+## My Solution
+
+### Screenshot
+
+![Screenshot](./screenshot.png)
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS Flexbox
+- JavaScript
+
+### Links
+
+- Live Site URL: [GitHub Pages](https://mikeattah.github.io/web-developer-portfolio/)
+
+## Author
+
+- Website - [Mike Attah](https://www.mikeattah.com)
+- Frontend Mentor - [@mikeattah](https://www.frontendmentor.io/profile/mikeattah)
+- Twitter - [@miikeattah](https://www.twitter.com/miikeattah)
+
+## Welcome to Codewell! 👋
 
 Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects.
 
 Free or paid, all templates are high quality and will make great portfolio pieces.
-
-## My Solution
-
-Details
 
 ## I've completed the challenge, now what?
 
