@@ -39,7 +39,7 @@
         <div class="header-title">
           <h1 class="title">Johnathan Specter</h1>
         </div>
-        <nav class="header-nav">
+        <nav id="header-nav" class="header-nav">
           <ul class="nav-list">
             <li class="nav-item">
               <a href="#Articles" class="nav-link">Articles</a>
@@ -55,23 +55,27 @@
             </li>
           </ul>
         </nav>
-        <div class="header-btn">
+        <div id="header-btn" class="header-btn">
           <a href="#" class="btn">Get in touch</a>
         </div>
+        <a
+          href="javascript:void(0);"
+          id="header-icon"
+          class="header-icon"
+          onclick="hiddenNavBar()"
+          >☰</a
+        >
       </header>
       <main class="main-container">
         <!-- S1 -->
         <section id="Articles" class="articles">
           <h2 class="articles-section-title">
-            Helping companies build <br />
-            better, scalable software.
+            Helping companies build better, scalable software.
           </h2>
           <p class="articles-section-text">
             Award-winning web developer and author, with over 15+ years of
-            working <br />
-            experience with Fortune 500 companies like Apple, Google, Facebook,
-            and <br />
-            more.
+            working experience with Fortune 500 companies like Apple, Google,
+            Facebook, and more.
           </p>
           <div class="logos-container">
             <img
@@ -116,12 +120,8 @@
               <h2 class="spense-subsection-title">Spense.com</h2>
               <p class="spense-subsection-text">
                 Rethinking the way writers get paid, an open-source platform
-                <br />
-                designed to help writers focus more on writing, and less on
-                <br />
-                when and how they&apos;ll get paid. Project in collaboration
-                with
-                <br />
+                designed to help writers focus more on writing, and less on when
+                and how they&apos;ll get paid. Project in collaboration with
                 Codewell.cc
               </p>
             </div>
@@ -137,12 +137,9 @@
             <div class="yelpcamp-text-container">
               <h2 class="yelpcamp-subsection-title">YelpCamp.com</h2>
               <p class="yelpcamp-subsection-text">
-                Allowing backpack travelers to perfectly plan their trip <br />
-                through an open-source platform similar to TripAdvisor. With
-                <br />
-                over 1m MAU, YelpCamp has been the crowd&apos;s favorite in
-                <br />
-                2021.
+                Allowing backpack travelers to perfectly plan their trip through
+                an open-source platform similar to TripAdvisor. With over 1m
+                MAU, YelpCamp has been the crowd&apos;s favorite in 2021.
               </p>
             </div>
           </div>
@@ -151,29 +148,23 @@
         <section id="Awards" class="awards">
           <div class="awards-subsection">
             <h2 class="awards-section-title">
-              A co-founder at one of the <br />
-              world&apos;s largest communities.
+              A co-founder at one of the world&apos;s largest communities.
             </h2>
             <p class="awards-section-text">
-              The combined experience I have working at the top Fortune <br />
-              500 companies has allowed me to develop a skillset that <br />
-              helps me in not just developement, but in every aspect of any
-              <br />
-              business.
+              The combined experience I have working at the top Fortune 500
+              companies has allowed me to develop a skillset that helps me in
+              not just developement, but in every aspect of any business.
             </p>
             <p class="awards-section-text">
-              I am proud to announce that I am now working at one of the <br />
-              world&apos;s largest communities teaching young minds about how
-              <br />
-              to <span class="italic-text">sell yourself</span> as a developer
-              and open them to a whole new <br />
-              world of opportunities.
+              I am proud to announce that I am now working at one of the
+              world&apos;s largest communities teaching young minds about how to
+              <span class="italic-text">sell yourself</span> as a developer and
+              open them to a whole new world of opportunities.
             </p>
           </div>
           <div class="awards-subsection">
             <p class="awards-section-text">
               As a developer, you have everything available to you and all
-              <br />
               that&apos;s holding you back is yourself.
             </p>
             <p class="awards-section-text">
@@ -185,15 +176,12 @@
             >
             <p class="awards-section-text">
               You&apos;ve already gone through the hardest parts of being a
-              <br />
               developer, it&apos;s time to elevate your skills and become a
-              leader <br />
-              in something you&apos;re
+              leader in something you&apos;re
               <span class="italic-text">passionate</span> about.
             </p>
             <p class="awards-section-text">
               I&apos;m happy to chat over coffee some time about how I can help
-              <br />
               your company.
             </p>
           </div>
@@ -203,9 +191,7 @@
           <h2 class="about-section-title">Interested in working with me?</h2>
           <p class="about-section-text">
             I&apos;m active on all social media platforms listed below, but you
-            <br />
             can also send me an email and I will get back to you within 24-48
-            <br />
             hours.
           </p>
           <div class="about-section-button">
@@ -249,5 +235,6 @@
         </p>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
