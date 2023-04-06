@@ -20,10 +20,10 @@
 
 ### Links
 
-- Live Site URL: [GitHub Page](https://mikeattah.github.io/web-developer-portfolio/)
+- View Site: [GitHub Page](https://mikeattah.github.io/codewell-web-developer-portfolio/)
 
 ## Author
 
-- Website - [mikeattah.com](https://www.mikeattah.com)
-- Frontend Mentor - [@mikeattah](https://www.frontendmentor.io/profile/mikeattah)
-- Twitter - [@mikeattahh](https://www.twitter.com/mikeattahh)
+- Website: [mikeattah.com](https://www.mikeattah.com)
+- Frontend Mentor: [@mikeattah](https://www.frontendmentor.io/profile/mikeattah)
+- Twitter: [@mikeattahh](https://www.twitter.com/mikeattahh)
